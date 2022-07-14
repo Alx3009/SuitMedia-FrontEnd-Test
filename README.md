@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Objective
+This website is created by Tito Alexsta for fulfill the Online Test of Suitmedia Intership Program. Created within 24 hours.
+
 ## Available Scripts
 
 In the project directory, you can run:
