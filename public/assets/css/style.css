@@ -1,0 +1,260 @@
+html {
+    scroll-behavior: smooth;
+  }
+  * {
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Body start here */
+ /*  .content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    margin-top: 20px;
+    transform: translate(40%, 220%);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 60px 10px 10px;
+  
+  } */
+  h1 {
+    color: white;
+    margin: 5px 0px;
+    font-size: 20px;
+  }
+  
+  
+  .about-us {
+    background-color: #2f3a27;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: font-size 0.4s;
+  }
+  .about-us:hover {
+    font-size: 150%;
+  }
+  /* about start here */
+/*   .about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #2f3a27;
+  }
+  @media screen and (max-width: 1032px) {
+    .about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 50px;
+    }
+  }
+  .about img {
+    height: auto;
+    width: 430px;
+    border-radius: 15px;
+  }
+  .about-text {
+    width: 550px;
+  }
+  .main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+  }
+  .about-text p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+  }
+  .srvclink {
+    background-color: #e3e4e6;
+    color: #2f3a27;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: font-size 0.4s;
+  }
+  .srvclink:hover {
+    font-size: 150%;
+  } */
+  /* service */
+  .service {
+    background: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+  }
+  .title h2 {
+    width: 100%;
+    color: black;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+  }
+  .box {
+    display: flex;
+    max-width: 1000%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .card1 {
+    height: 300px;
+    width: 320px;
+    padding: 20px 35px;
+    background: #f18b7e;
+    border: 2px solid palevioletred;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .card2 {
+    height: 300px;
+    width: 320px;
+    padding: 20px 35px;
+    background: #6a996f;
+    border: 2px solid green;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .card3 {
+    height: 300px;
+    width: 320px;
+    padding: 20px 35px;
+    background: #5696c2;
+    border: 2px solid rgb(88, 88, 153);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+  }
+  .box img{
+    height: 30px;
+    width: 25px;
+  }
+  .card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+  }
+  h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+  }
+  .pra p {
+    color: white;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+  }
+  
+  /* contact start here */
+  
+  .contact-form {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    border-radius: 20px;
+    
+  }
+  .row-contact h1 {
+    text-align: center;
+    color: #2f3a27;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .col-contact {
+    margin: 30px 10px;
+    padding: 10px 20px;
+  }
+  .list {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  input,
+  textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  .btn-primary {
+    background-color: rgb(67, 149, 181);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin: auto;
+    display: block;
+  }
+  .btn-primary:hover {
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 920px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo {
+      display: none;
+    }
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      padding: 10px 0px;
+    }
+  }
+  
