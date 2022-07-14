@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Deployment
+## Deployment
 https://suit-media-front-end-test.vercel.app/
 
 ## Objective
